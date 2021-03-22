@@ -1,0 +1,20 @@
+{
+  "name": "Parcel-template-website-quest",
+  "version": "1.0.0",
+  "description": "Original repo: https://github.com/StartBootstrap/startbootstrap-3-col-portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohannaMathieu/Parcel-template-website-quest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohannaMathieu/Parcel-template-website-quest/issues"
+  },
+  "homepage": "https://github.com/JohannaMathieu/Parcel-template-website-quest#readme"
+}
