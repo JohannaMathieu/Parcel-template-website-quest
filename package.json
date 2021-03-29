@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "prebuild": "rm -rf dist",
+    "build": "parcel build index.html --public-url  ./"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/JohannaMathieu/Parcel-template-website-quest/issues"
   },
-  "homepage": "https://github.com/JohannaMathieu/Parcel-template-website-quest#readme"
+  "homepage": "https://github.com/JohannaMathieu/Parcel-template-website-quest#readme",
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.2.1"
+  }
 }
